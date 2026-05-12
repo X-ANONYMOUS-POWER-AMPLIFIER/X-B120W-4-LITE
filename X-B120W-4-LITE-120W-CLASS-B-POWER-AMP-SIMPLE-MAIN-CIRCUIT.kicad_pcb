@@ -38881,6 +38881,17 @@
 			)
 		)
 	)
+	(gr_text "X-B120W-4-LITE"
+		(at 66.675 148.59 90)
+		(layer "F.SilkS")
+		(uuid "ed878ee5-e7ad-452b-b028-0acc9a9ee569")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.15)
+			)
+		)
+	)
 	(gr_text "INPUT"
 		(at 144.78 184.15 0)
 		(layer "F.SilkS")
@@ -38890,6 +38901,18 @@
 				(size 1.25 1.15)
 				(thickness 0.15)
 			)
+		)
+	)
+	(gr_text "X-B120W-4-LITE"
+		(at 210.185 148.7875 90)
+		(layer "B.SilkS")
+		(uuid "06fce311-61f5-4c47-837f-136e968bd4e4")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.15)
+			)
+			(justify mirror)
 		)
 	)
 	(dimension
