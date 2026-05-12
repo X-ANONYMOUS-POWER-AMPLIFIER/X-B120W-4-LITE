@@ -6,7 +6,7 @@ This is a main-circuit model of power amplifier applies a non-symmetrical VAS wi
 
 This circuit is designed to fit with a small circuit board, and intentionally designed for a single-sided circuit board, so as you see that it has some wire-jumpers. A KISS principle is applied with it. (KISS: Keep It Simple-Stupid.)
 
-As you also see, this model isn't completed with a current-limiter within its output-stage, that you're probably questioning it, why? It is, as such current-limiter won't be working effectively, and therefore not applied within this model. It will better a special output protector circuit in a different circuit board applied to take function for protecting this power amp's output-stage.
+As you also see, this model isn't completed with the current-limiters within its output-stage, that you're probably questioning it, why? It is, as such current-limiter won't be working effectively, and therefore not applied within this model. It will better a special output protector circuit in a different circuit board applied to take function for protecting this power amp's output-stage.
 
 ## Advanced VAS Model
 
