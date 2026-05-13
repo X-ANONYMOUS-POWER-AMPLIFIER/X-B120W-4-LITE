@@ -6,11 +6,11 @@ This is a main-circuit model of power amplifier applies a non-symmetrical VAS wi
 
 This circuit is designed to fit with a small single-sided circuit board, so as you see that it has some wire-jumpers. A KISS principle is applied with it. (KISS: Keep It Simple-Stupid.)
 
-As you also see, this main-circuit power amp model isn't completed with the current-limiters within its output-stage, that you're probably questioning it, why? It is, as such current-limiter won't be working effectively, and therefore not applied within this model. It will better a special output protector circuit in a different circuit board applied to take function for protecting this power amp's output-stage.
+As you also see, this power amp main-circuit model isn't completed with the current-limiters within its output-stage, that you're probably questioning it, why? It is, as such current-limiter won't be working effectively, and therefore not applied within this model. It will better a special output protector circuit in a different circuit board applied to take function for protecting this power amp's output-stage.
 
 ## Advanced VAS Model
 
-The VAS of this power amp model has an active load that synchronized with the main VAS side to be working as well a fully symmetrical VAS. The output signal from the LTP buffer (Q4006's emitter) copied by a grounded-base amplifier or signal-current-buffer, Q4008, to supply a copy of signal to make the VAS's loader, Q4009, to be fully actively working side-by-side with the main VAS, Q4007. 
+The VAS of this power amp main-circuit model has an active load that synchronized with the main VAS side to be working as well a fully symmetrical VAS. The output signal from the LTP buffer (Q4006's emitter) copied by a grounded-base amplifier or signal-current-buffer, Q4008, to supply a copy of signal to make the VAS's loader, Q4009, to be fully actively working side-by-side with the main VAS, Q4007. By applying this technique, this power amp main-circuit model will be able to achieve wide headroom even for 1-ohms load fully symmetrically.
 
 The amplification workflow between LTP buffer, Q4006, into the VAS loader, Q4009, isn't for tackling the DC amplification, but limited for tackling AC amplification, to prevent DC offset. The LTP buffer output, Q4006's emitter, is coupled by C4007 into the emitter of Q4008. to gain AC signal only, thus Q4008 can keep its main function as a current-source to provide a constant forward-bias-current for Q4009's base.
 
