@@ -10,9 +10,9 @@ As you also see, this main-circuit power amp model isn't completed with the curr
 
 ## Advanced VAS Model
 
-The VAS of this power amp model has an active load that synchronized with the main VAS side to be working as well a fully symmetrical VAS. The output signal from the LTP buffer (Q4006's emitter) copied by a grounded-base amplifier or signal-current-buffer, Q4008, to supply a copy of signal to make the VAS's loader, Q4009, to be fully activelly working side-by-side with the main VAS, Q4007. 
+The VAS of this power amp model has an active load that synchronized with the main VAS side to be working as well a fully symmetrical VAS. The output signal from the LTP buffer (Q4006's emitter) copied by a grounded-base amplifier or signal-current-buffer, Q4008, to supply a copy of signal to make the VAS's loader, Q4009, to be fully actively working side-by-side with the main VAS, Q4007. 
 
-The amplification workflow between LTP buffer, Q4006, into the VAS loader, Q4009, isn't for tackling the DC amplification, but limited for tackling AC amplification, to prevent DC offset. The LTP buffer output, Q4006's emitter, is coupled by C4007 into the emitter of Q4008. to gain AC signal only, thus Q4008 can keep its main function as a current-souce to provide a constant forward-bias-current for Q4009's base.
+The amplification workflow between LTP buffer, Q4006, into the VAS loader, Q4009, isn't for tackling the DC amplification, but limited for tackling AC amplification, to prevent DC offset. The LTP buffer output, Q4006's emitter, is coupled by C4007 into the emitter of Q4008. to gain AC signal only, thus Q4008 can keep its main function as a current-source to provide a constant forward-bias-current for Q4009's base.
 
 ![Circuit board preview 1](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B120W-4-LITE/blob/main/PCB-PREVIEW/1.png)
 ![Circuit board preview 2](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B120W-4-LITE/blob/main/PCB-PREVIEW/2.png)
