@@ -12,7 +12,7 @@ The VAS of this power amp main-circuit model has an active load that synchronize
 
 The amplification workflow between LTP buffer, Q4006, into the VAS loader, Q4009, isn't for tackling the DC amplification, but limited for tackling AC amplification. The LTP buffer output, Q4006's emitter, is coupled by C4007 into the emitter of Q4008 for gaining the AC signal only, thus Q4008 can keep its main function as a current-source to provide a constant forward-bias-current for Q4009's base and thus Q4009 also kept its function as a current-source for providing the initial constant forward-bias-current for the output-stage while it is also taking function as an active loader of VAS for providing fully symmetrical AC amplification.
 
-By applying this technique, this power amp main-circuit model will be able to achieve wide headroom even for 1-ohms load in fully symmetrically and certainly achieve high performance in nominal output load (4-ohms or 8-ohms). And certainly, one of the important tings is about limit the number of transistors, makes the circuit model quit simple with high performance guaranteed!
+By applying this technique, this power amp main-circuit model will be able to achieve wide headroom even for 1-ohms load in fully symmetrically and certainly achieve high performance in nominal output load (4-ohms or 8-ohms). And certainly, one of the important tings is about limit the number of transistors, makes the circuit model quit simple with high performance guarantee.
 
 ![Circuit board preview 1](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B120W-4-LITE/blob/main/PCB-PREVIEW/1.png)
 ![Circuit board preview 2](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B120W-4-LITE/blob/main/PCB-PREVIEW/2.png)
