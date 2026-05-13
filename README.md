@@ -1,6 +1,6 @@
 # X-B120W-4-LITE - SIMPLE MAIN-CIRCUIT MODULE OF 120 WATTS CLASS-B AUDIO POWER AMPLIFIER MAIN-CIRCUIT FOR 4-OHMS OUTPUT LOAD
 
-X-B120W-4-LITE is a power amplifier main-circuit module designed to be simple, with only few number of transistors within its input-stage and its VAS, designed to be fit with a small size single-sided circuit board. It is designed to handle 120 watts of 4-ohms output load power rating.
+X-B120W-4-LITE is a power amplifier main-circuit module designed to be simple, with only few number of transistors within its input-stage and its VAS, designed to be fit in a small size single-sided circuit board. It is designed to handle 120 watts of 4-ohms output load power rating.
 
 ![X-B120W-4 schematic diagram](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B120W-4-LITE/blob/main/X-B120W-4-LITE-120W-CLASS-B-POWER-AMP-SIMPLE-MAIN-CIRCUIT.png?raw=true)
 
