@@ -41,3 +41,5 @@ IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY DAMAGES, INCLUDING BUT NOT LIMI
 
 Design files bundle is available for download by follow the URL: [https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B120W-4-LITE/archive/refs/heads/main.zip](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B120W-4-LITE/archive/refs/heads/main.zip)
 
+The main design files of schematic and PCB design are in [KiCad](https://www.kicad.org/) V.9.x format.
+
