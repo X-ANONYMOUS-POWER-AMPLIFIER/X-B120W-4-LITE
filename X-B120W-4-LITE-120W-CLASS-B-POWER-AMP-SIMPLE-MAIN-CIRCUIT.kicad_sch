@@ -4245,7 +4245,7 @@
 		)
 		(uuid "cf5c311c-76e9-45a5-9d81-fbbba40bb2d5")
 	)
-	(text ".PARAM R_LOAD=1"
+	(text ".PARAM R_LOAD=4"
 		(exclude_from_sim no)
 		(at -62.23 67.31 0)
 		(effects
