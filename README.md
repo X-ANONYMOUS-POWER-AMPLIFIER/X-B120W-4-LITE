@@ -8,7 +8,7 @@ The circuit of X-B120W-4-LITE applies only the effective circuitry models for ea
 
 ## Advanced VAS Model
 
-The VAS of this power amp main-circuit model has an active load that synchronized with the main VAS side to be working as well a fully symmetrical VAS. The output signal from the LTP buffer (Q4006's emitter) copied by a grounded-base transistor amplifier or signal-current-buffer, Q4008, to supply a copy of signal to make the VAS's loader, Q4009, to be fully actively working side-by-side with the main VAS, Q4007. 
+The VAS of this power amp main-circuit model has an active load that synchronized with the main VAS side to be working as well a fully symmetrical VAS. The output signal from the LTP buffer (Q4006's emitter) copied by a grounded-base transistor amplifier or signal-current-buffer, Q4008, to feed a copy of signal for VAS's loader, Q4009, makes the VAS's loader to be fully actively working side-by-side with the main VAS, Q4007.
 
 The amplification workflow between LTP buffer, Q4006, into the VAS loader, Q4009, isn't for tackling the DC amplification, but limited for tackling AC amplification. The LTP buffer output, Q4006's emitter, is coupled by C4007 into the emitter of Q4008. to gain AC signal only, thus Q4008 can keep its main function as a current-source to provide a constant forward-bias-current for Q4009's base and thus Q4009 also kept its function as a current-source for providing the initial constant forward-bias-current for the output-stage while it is also taking function as an active high-side VAS for providing fully symmetrical AC amplification.
 
