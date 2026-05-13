@@ -16,7 +16,9 @@ By applying this technique, this power amp main-circuit model will be able to ac
 
 ## Warning: None of Current-Limiter Applied Within The Output-Stage
 
-There is none of current-limiter applied within the output-stage, means that it may introduce a risk of short-circuited output. To prevent a fatal output short-circuited overcome, an output protection circuit have to be applied between the X-B120W-4-LITE module's +SPK output and the loudspeaker. The sensing signal of the overload output or output short-circuit can be obtained via CNT4006.  
+There is none of current-limiter applied within the output-stage, means that it may introduce a risk of short-circuited output. To prevent a fatal output short-circuited overcome, an output protection circuit have to be applied between the X-B120W-4-LITE module's +SPK output and the loudspeaker. The sensing signal of the overload output or output short-circuit can be obtained via CNT4006.
+
+You may have a question, why no current-limiter applied within the output-stage? The answer is: Applying the current-limiters within the output-stage - is not really effective since the VAS will always maintain its signal-current along to follow its amplification level although the current-limiter actives as it detects a short-circuited output.
 
 ![Circuit board preview 1](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B120W-4-LITE/blob/main/PCB-PREVIEW/1.png)
 ![Circuit board preview 2](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B120W-4-LITE/blob/main/PCB-PREVIEW/2.png)
