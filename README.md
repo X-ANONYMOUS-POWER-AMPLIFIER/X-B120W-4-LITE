@@ -4,7 +4,7 @@ X-B120W-4-LITE is a power amplifier main-circuit module designed to be simple, w
 
 ![X-B120W-4 schematic diagram](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B120W-4-LITE/blob/main/X-B120W-4-LITE-120W-CLASS-B-POWER-AMP-SIMPLE-MAIN-CIRCUIT.png?raw=true)
 
-The circuit of X-B120W-4-LITE applies only the effective circuitry models for each of its blocks. Its input-stage applies a minimalist-but-effective LTP (Long Tailed Pair) circuit model, completed with an active-load and an offset null adjustment trimmer. Its VAS (Voltage Amplifier Stage) applies simple circuit model but with an advanced active-load technique to achieve high amplification performance, with applies only small number of transistors without needing to apply differential-based topology.
+The circuit of X-B120W-4-LITE applies only the effective circuitry models for each of its blocks. Its input-stage applies a minimalist-but-effective LTP (Long Tailed Pair) circuit model, completed with an active-load and an offset null adjustment trimmer. Its VAS (Voltage Amplifier Stage) applies simple circuit model but with an advanced active-load technique to achieve high amplification performance, with applies only few number of transistors without needing to apply differential-based topology.
 
 ## Advanced VAS Model
 
