@@ -1,12 +1,10 @@
 # X-B120W-4-LITE - SIMPLE MAIN-CIRCUIT MODULE OF 120 WATTS CLASS-B AUDIO POWER AMPLIFIER MAIN-CIRCUIT FOR 4-OHMS OUTPUT LOAD
 
-This is a main-circuit model of power amplifier applies a non-symmetrical VAS with active-load. This model is designed to be quit simple as possible, in which the simplicity is about to achieve the optimal work speed of this power amp model.
+X-B120W-4-LITE is a power amplifier main-circuit module designed to be simple, with only few number of transistors within its input-stage and its VAS, designed to be fit with a small size single-sided circuit board.
 
 ![X-B120W-4 schematic diagram](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B120W-4-LITE/blob/main/X-B120W-4-LITE-120W-CLASS-B-POWER-AMP-SIMPLE-MAIN-CIRCUIT.png?raw=true)
 
-This circuit is designed to fit with a small single-sided circuit board, so as you see that it has some wire-jumpers. A KISS principle is applied with it. (KISS: Keep It Simple-Stupid.)
-
-As you also see, this power amp main-circuit model isn't completed with the current-limiters within its output-stage, that you're probably questioning it, why? It is, as such current-limiter won't be working effectively, and therefore not applied within this model. It will better a special output protector circuit in a different circuit board applied to take function for protecting this power amp's output-stage.
+The circuit of X-B120W-4-LITE applies only the effective circuitry models with each of its block. Its input-stage applies a minimalist-but-effective LTP (Long Tailed Pair) circuit model, completed with an active-load and an offset null adjustment trimmer. Its VAS (Voltage Amplifier Stage) applies simple circuit model but with an advanced active-load technique to achieve high amplification performance, with applies only small number of transistors without needing to apply differential-based topology.
 
 ## Advanced VAS Model
 
