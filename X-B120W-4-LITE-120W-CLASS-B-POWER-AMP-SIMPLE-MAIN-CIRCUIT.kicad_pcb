@@ -7936,7 +7936,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
 		(property "Reference" "C4007"
-			(at 15.39875 -0.02 0)
+			(at 4.1275 0 0)
 			(layer "F.SilkS")
 			(uuid "9b52d01b-d399-4cb0-baff-8f37b554e715")
 			(effects
@@ -8210,7 +8210,7 @@
 			(uuid "9d1edd33-06c5-4e9b-a8ac-ff0ba122d6b5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.1275 0.2975 180)
+			(at 4.1275 0 180)
 			(layer "B.SilkS")
 			(uuid "a9a4c16b-7eb1-4cb4-a9df-fa696b0d30e6")
 			(effects
